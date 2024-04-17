@@ -10,8 +10,6 @@ CREATE TABLE cyclistic.trips_2023_Q1 AS
     SELECT * FROM `glossy-agency-419911.cyclistic.202302_trip`
     UNION ALL
     SELECT * FROM `glossy-agency-419911.cyclistic.202303_trip`
-    UNION ALL
-    SELECT * FROM `glossy-agency-419911.cyclistic.202304_trip`
   );
 
 --check ID LEN
