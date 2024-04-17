@@ -12,7 +12,7 @@ CREATE TABLE cyclistic.trips_2023_Q1 AS
     SELECT * FROM `glossy-agency-419911.cyclistic.202303_trip`
   );
 
---check ID LEN
+--check ID LEN and duplicate
 SELECT count(distinct(LEN)) AS number_LEN_ID
 FROM (
       SELECT length(ride_id) AS LEN --checks length of ride_ids
@@ -20,5 +20,5 @@ FROM (
 ORDER BY LEN ASC-- Check length of ID BY DESC & ASC
 );  
 
--- checking no of rows is 1066014
-select * from glossy-agency-419911.cyclistic.trips_2023_Q1
+-- checking no of rows is 639424
+select count(*) from glossy-agency-419911.cyclistic.trips_2023_Q1;
