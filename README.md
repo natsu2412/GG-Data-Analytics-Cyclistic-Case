@@ -10,3 +10,4 @@ Since 2016, Cyclistic has been a successful bike-share program in Chicago, growi
 ## 🤔 Process
 ### 1. Ask 💬
 **Business Task:** Our mission is to **transform casual riders into loyal members** by delving into the differences between annual members and casual riders, uncovering the motivations behind casual riders purchasing memberships, and exploring the impact of digital media on our marketing strategies.
+
