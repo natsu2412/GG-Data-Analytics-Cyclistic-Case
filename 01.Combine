@@ -1,7 +1,7 @@
 -- clean existing table
 drop table if exists cyclistic.trips_2023_Q1;
 
---- combining 4 month (Not excced 100 MB able upload from local)
+--- combining 3 month in Q1 0f 2023 (Not excced 100 MB able upload from local)
 CREATE TABLE cyclistic.trips_2023_Q1 AS
   SELECT *
   FROM (
