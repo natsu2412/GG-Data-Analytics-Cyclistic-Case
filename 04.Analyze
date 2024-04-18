@@ -1,1 +1,12 @@
 -- Q : How do annual members and casual riders use Cyclistic bikes differently?
+-- Types of bike
+
+SELECT member_casual, rideable_type, 
+COUNT(*) AS total_of_rides
+FROM `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
+GROUP BY member_casual, rideable_type
+ORDER BY total_of_rides DESC;
+
+/* The total of bike
+  1.Highest is member with classic bike as 228088 and,
+  2.Lowest is casual with docked_bike as 6689 */
