@@ -11,3 +11,26 @@ ORDER BY total_of_rides DESC;
   1.Highest is member with classic bike as 228088 and,
   2.Lowest is casual with docked_bike as 6689 */
 
+-- No. of rides per month
+select member_casual,month ,count(*) as total_trip_rideable
+from `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
+group by member_casual, month
+order by total_trip_rideable DESC;
+
+-- No.of rides per day of week
+select member_casual,day_of_week ,count(*) as total_trip_rideable
+from `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
+group by member_casual, day_of_week
+order by total_trip_rideable DESC;
+
+-- No. of rides per hour
+SELECT 
+  member_casual,
+  day_of_week,
+  EXTRACT(HOUR FROM started_at) AS hours_per_day,
+  COUNT(*) AS total_trip_rideable
+FROM `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
+GROUP BY member_casual, day_of_week, hours_per_day
+ORDER BY total_trip_rideable DESC;
+
+-- Average ride length per day of week
