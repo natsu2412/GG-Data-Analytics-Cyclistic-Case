@@ -6,7 +6,8 @@ DROP TABLE IF EXISTS `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`;
 CREATE TABLE `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1` AS
 SELECT 
   A1.*,
-  CASE EXTRACT(DAYOFWEEK FROM started_at) 
+  A2.ride_length_in_mins,
+  CASE EXTRACT(DAYOFWEEK FROM A1.started_at) 
       WHEN 1 THEN 'SUN'
       WHEN 2 THEN 'MON'
       WHEN 3 THEN 'TUES'
@@ -15,7 +16,7 @@ SELECT
       WHEN 6 THEN 'FRI'
       WHEN 7 THEN 'SAT'    
   END AS day_of_week,
-  CASE EXTRACT(MONTH FROM started_at)
+  CASE EXTRACT(MONTH FROM A1.started_at)
       WHEN 1 THEN 'JAN'
       WHEN 2 THEN 'FEB'
       WHEN 3 THEN 'MAR'
@@ -37,12 +38,12 @@ FULL OUTER JOIN (
   FROM `glossy-agency-419911.cyclistic.trips_2023_Q1`
 ) AS A2 ON A1.ride_id = A2.ride_id
 WHERE 
-  start_station_name IS NOT NULL AND
-  start_station_id IS NOT NULL AND
-  end_station_name IS NOT NULL AND
-  end_station_id IS NOT NULL AND
-  start_lat IS NOT NULL AND
-  start_lng IS NOT NULL AND
-  end_lat IS NOT NULL AND
-  end_lng IS NOT NULL AND
-  ride_length_in_mins > 1 AND ride_length_in_mins < 1440;
+  A1.start_station_name IS NOT NULL AND
+  A1.start_station_id IS NOT NULL AND
+  A1.end_station_name IS NOT NULL AND
+  A1.end_station_id IS NOT NULL AND
+  A1.start_lat IS NOT NULL AND
+  A1.start_lng IS NOT NULL AND
+  A1.end_lat IS NOT NULL AND
+  A1.end_lng IS NOT NULL AND
+  A2.ride_length_in_mins > 1 AND A2.ride_length_in_mins < 1440;
