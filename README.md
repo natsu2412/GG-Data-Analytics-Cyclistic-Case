@@ -11,3 +11,15 @@ Since 2016, Cyclistic has been a successful bike-share program in Chicago, growi
 ### 1. Ask 💬
 **Business Task:** Our mission is to **transform casual riders into loyal members** by delving into the differences between annual members and casual riders, uncovering the motivations behind casual riders purchasing memberships, and exploring the impact of digital media on our marketing strategies.
 
+>#### Questions will guide the future marketing program:
+>  1. How do annual members and casual riders use Cyclistic bikes differently?
+>  2. Why would casual riders buy Cyclistic annual memberships?
+>  3. How can Cyclistic use digital media to influence casual riders to become members?
+
+### 2. Prepare
+Data Source : [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html),the data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement)
+
+Tool :
+  1.SQL on Google Big Query for Data Process and Analysis step.
+  2.Tabalue for [Data visualization](
+
