@@ -21,5 +21,5 @@ Data Source : [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.htm
 
 Tool :
   1.SQL on Google Big Query for Data Process and Analysis step.
-  2.Tabalue for [Data visualization](
+  2.Tabalue for [Data visualization](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
 
