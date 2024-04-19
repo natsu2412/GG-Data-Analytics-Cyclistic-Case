@@ -27,6 +27,22 @@ Tool :<br />
 Processing step is follow as : <br />
 1. Select Sampling Data - Last Data and Period <br />
 2. [Data Combining](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/01.Data%20Combining.sql) - 3 tables of Q1 2023 are combined in 1 table.[Note - A Limited local upload size is 100 MB] <br />
-3. Data Exploring
-4. Data Cleansing
+3. [Data Exploring](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/02.Data%20Exploring.sql) - check the output data as list below; <br />
+   <br />3.1 Check Data Schema <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/c22a222c-03a4-4190-9f39-3db92713a2f4)<br />
+   <br />3.2 Check number of row <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/1c5ff628-226b-4b50-aaf7-5ed1e4c226f9)<br />
+   <br />3.3 Check number of null <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/668612ac-8437-4e3f-ba78-093f3e244304)<br />
+   <br />3.4 Check duplicate of row with primay-key(ride_id) <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/e53295f2-0f2a-4c6d-a165-752b43941343)<br />
+   <br />3.5 Check length of ride_id and number of group length <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/903cb584-c560-4e5d-97d4-7e1f27cf3277)<br />
+   <br />3.6 Check type of bikes <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/f4c0f808-bccd-4050-b5ad-701c686f660e)<br />
+   <br />3.7 Check type of member <br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/ea8adca6-83cd-414d-8f4d-986594a1d455)<br />
+4. Data Cleansing - Final table for analyst with 3 columns adding : duration as ride_length_in_mins, month and day_of_week column<br />
+   ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/90ac5137-37c2-4446-80e2-9b0f455d7a35)<br />
+
 5. Data Analyzing.
