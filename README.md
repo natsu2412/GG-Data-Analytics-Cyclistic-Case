@@ -19,14 +19,14 @@ Since 2016, Cyclistic has been a successful bike-share program in Chicago, growi
 ### 2. Prepare
 Data Source : [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html),the data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement)
 
-Tool :
-  1.SQL on Google Big Query for Data Process and Analysis step.
-  2.Tabalue for [Data visualization](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)
+Tool :<br />
+  1.SQL on Google Big Query for Data Process and Analysis step.<br />
+  2.Tabalue for [Data visualization](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)<br />
 
 ### 3. Process
-Processing step is follow as :
-1.Select Sampling Data - Last Data and Period
-2.Data Combining - 3 tables of Q1 2023 are combined in 1 table.
-3.Data Exploring
-4.Data Cleansing
-5.Data Analyzing.
+Processing step is follow as : <br />
+1. Select Sampling Data - Last Data and Period <br />
+2. [Data Combining](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/01.Data%20Combining.sql) - 3 tables of Q1 2023 are combined in 1 table.[Note - A Limited local upload size is 100 MB] <br />
+3. Data Exploring
+4. Data Cleansing
+5. Data Analyzing.
