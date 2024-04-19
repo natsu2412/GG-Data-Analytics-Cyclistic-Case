@@ -1,4 +1,4 @@
-![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/ac621b15-c3ae-4ce0-a790-5797d042d924)# 📚 Cyclistic bike-share analysis case study 
+# 📚 Cyclistic bike-share analysis case study 
 
 ## 👋🏻 Introduction 
 
@@ -52,6 +52,7 @@ Processing step is follow as : <br />
 Absolutely! The data has been diligently organized and is now primed for analysis. I've delved into several relevant tables to gather insights, and I've jazzed up the findings with some snazzy visuals in Tableau.<br />
 
 Our focal question is: How do annual members and casual riders use Cyclistic bikes differently?<br />
-To start off on the right foot, we're taking a polite peek into their bike preferences. Let's uncover who's pedaling what, shall we?
-![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/a7063bc4-252d-415e-aec0-8d39b27ff351)
+To start off on the right foot, we're taking a polite peek into their bike preferences. Let's uncover who's pedaling what, shall we?<br />
+<br />![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/52de3b81-0667-4959-b58f-213891341776) <br />
+
 
