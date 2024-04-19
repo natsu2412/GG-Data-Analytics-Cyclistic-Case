@@ -57,4 +57,14 @@ To start off on the right foot, we're taking a polite peek into their bike prefe
 So, our trusty members make up a solid 77.71% of the whole gang, leaving the casual riders with a respectable 22.29% slice of the pie. When it comes to bike preferences, it seems like everyone's loving the classic bikes, with electric bikes not too far behind. Poor docked bikes, though, seem to be the wallflowers of the party, only getting attention from our casual riders.<br />
 
 Now, onto the juicy details! We're diving into the numbers of trips, breaking them down by the months, days of the week, and even the quirky hours of the day. Let's see when and how our riders like to hit the road!<br />
+![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/c8e74fff-7391-498e-9736-00b2808a7771)<br />
+<br />
+
+In the first quarter, we noticed something interesting: at the beginning of the year, there are fewer rides compared to March. This might be because of holidays affecting how often people ride bikes.<br />
+
+When we looked at which days people ride, we found that both members and casual riders use bikes for work. <br />
+
+Now, let's talk about when people ride during the day. Members like to ride early in the morning (around 4 am to 8 am) and in the late afternoon (around 2 pm to 5 pm). Casual riders, on the other hand, steadily increase their rides throughout the day, peaking in the evening. <br />
+
+From all this, it seems like members use bikes mostly for commuting during the weekdays, while casual riders enjoy riding more on weekends for fun.Now, let's see how long these rides last and if there are any differences between casual and member riders.<br />
 
