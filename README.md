@@ -71,6 +71,7 @@ From all this, it seems like members use bikes mostly for commuting during the w
 
 Here's the scoop: casual riders are like marathon runners compared to members when it comes to trip length, clocking in longer journeys on average. Members stick to a steady pace, with trip lengths staying the same throughout the day. But casual riders? They're all over the map! They go the extra mile during between 8 am and 2 pm. And hey, they're not early birds either – their trips are shorter between 5 am and 8 am. <br />
 
+### 5. Act 👊🏻
 Now that we've cracked the code on how casual and member riders roll, it's time to whip up some marketing magic to woo those casual cruisers into the membership club! Here are some playful pointers: <br />
 
 1. Weekends are where the action's at! So, why not roll out some special deals like seasonal or weekend-only memberships? It's like a VIP pass to weekend biking bliss! <br />
