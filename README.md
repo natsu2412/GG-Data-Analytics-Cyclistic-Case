@@ -16,14 +16,14 @@ Since 2016, Cyclistic has been a successful bike-share program in Chicago, growi
 >  2. Why would casual riders buy Cyclistic annual memberships?
 >  3. How can Cyclistic use digital media to influence casual riders to become members?
 
-### 2. Prepare
+### 2. Prepare 📑
 Data Source : [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html),the data has been made available by Motivate International Inc. under this [license](https://www.divvybikes.com/data-license-agreement)
 
 Tool :<br />
   1.SQL on Google Big Query for Data Process and Analysis step.<br />
-  2.Tabalue for [Data visualization](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&publish=yes&:sid=&:display_count=n&:origin=viz_share_link)<br />
+  2.Tabalue for Data visualization.
 
-### 3. Process
+### 3. Process ⚙️
 Processing step is follow as : <br />
 1. Select Sampling Data - Last Data and Period <br />
 2. [Data Combining](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/01.Data%20Combining.sql) - 3 tables of Q1 2023 are combined in 1 table.[Note - A Limited local upload size is 100 MB] <br />
@@ -45,5 +45,7 @@ Processing step is follow as : <br />
 4. [Data Cleansing](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/03.Data%20Cleansing.sql) - Final table for analyst with nut null and 3 columns adding: duration as ride_length_in_mins, month and day_of_week column that for process in next step<br />
    ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/90ac5137-37c2-4446-80e2-9b0f455d7a35)<br />
 
-5. [Data Analyzing](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/04.Daya%20Analyzing.sql).<br />
+### 4. Data Analyzing and Sharing 🌅 <br />
+1.For Data analysis is processed by SQL for Query : [Data Analyzing](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/04.Daya%20Analyzing.sql) <br />
+2.For Sharing/Visualization is done by Tableau for [Dashbaord](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&:sid=&:display_count=n&:origin=viz_share_link) <br />
 
