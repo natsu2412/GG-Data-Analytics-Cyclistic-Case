@@ -54,5 +54,7 @@ Absolutely! The data has been diligently organized and is now primed for analysi
 Our focal question is: How do annual members and casual riders use Cyclistic bikes differently?<br />
 To start off on the right foot, we're taking a polite peek into their bike preferences. Let's uncover who's pedaling what, shall we?<br />
 <br />![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/52de3b81-0667-4959-b58f-213891341776) <br />
+So, our trusty members make up a solid 77.71% of the whole gang, leaving the casual riders with a respectable 22.29% slice of the pie. When it comes to bike preferences, it seems like everyone's loving the classic bikes, with electric bikes not too far behind. Poor docked bikes, though, seem to be the wallflowers of the party, only getting attention from our casual riders.<br />
 
+Now, onto the juicy details! We're diving into the numbers of trips, breaking them down by the months, days of the week, and even the quirky hours of the day. Let's see when and how our riders like to hit the road!<br />
 
