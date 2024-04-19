@@ -67,4 +67,6 @@ When we looked at which days people ride, we found that both members and casual 
 Now, let's talk about when people ride during the day. Members like to ride early in the morning (around 4 am to 8 am) and in the late afternoon (around 2 pm to 5 pm). Casual riders, on the other hand, steadily increase their rides throughout the day, peaking in the evening. <br />
 
 From all this, it seems like members use bikes mostly for commuting during the weekdays, while casual riders enjoy riding more on weekends for fun.Now, let's see how long these rides last and if there are any differences between casual and member riders.<br />
+![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/1b99dc64-0f5a-473c-87a6-16d5fc3c14d0)<br />
 
+Here's the scoop: casual riders are like marathon runners compared to members when it comes to trip length, clocking in longer journeys on average. Members stick to a steady pace, with trip lengths staying the same throughout the day. But casual riders? They're all over the map! They go the extra mile during between 8 am and 2 pm. And hey, they're not early birds either – their trips are shorter between 5 am and 8 am. <br />
