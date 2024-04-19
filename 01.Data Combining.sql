@@ -11,14 +11,3 @@ CREATE TABLE cyclistic.trips_2023_Q1 AS
     UNION ALL
     SELECT * FROM `glossy-agency-419911.cyclistic.202303_trip`
   );
-
---check ID LEN and duplicate
-SELECT count(distinct(LEN)) AS number_LEN_ID
-FROM (
-      SELECT length(ride_id) AS LEN --checks length of ride_ids
-      FROM `glossy-agency-419911.cyclistic.trips_2023_Q1`
-ORDER BY LEN ASC-- Check length of ID BY DESC & ASC
-);  
-
--- checking no of rows is 639424
-select count(*) from glossy-agency-419911.cyclistic.trips_2023_Q1;
