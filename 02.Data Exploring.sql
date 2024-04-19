@@ -21,10 +21,19 @@ SELECT
   FROM `glossy-agency-419911.cyclistic.trips_2023_Q1` 
 
 -- checking length of ride_id - 16 chars
-
-select length(ride_id) as length_ride_id
-from `glossy-agency-419911.cyclistic.trips_2023_Q1` 
-group by length_ride_id;
+SELECT 
+  COUNT(DISTINCT LEN) AS group_LEN_id,
+  LEN
+FROM (
+  SELECT 
+    LENGTH(ride_id) AS LEN
+  FROM 
+    `glossy-agency-419911.cyclistic.trips_2023_Q1`
+) AS subquery
+GROUP BY 
+  LEN
+ORDER BY 
+  LEN ASC;
 
 -- checking rideable_type - 3
 
