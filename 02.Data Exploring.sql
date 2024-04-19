@@ -20,6 +20,16 @@ SELECT
 
   FROM `glossy-agency-419911.cyclistic.trips_2023_Q1` 
 
+-- checking no of rows is 639424
+select count(*) AS number_of_row
+from glossy-agency-419911.cyclistic.trips_2023_Q1; 
+
+-- checking duplicate of rows is 0
+SELECT 
+  COUNT(*) - COUNT(DISTINCT ride_id) AS duplicate_of_rows
+FROM 
+  `glossy-agency-419911.cyclistic.trips_2023_Q1`;
+
 -- checking length of ride_id - 16 chars
 SELECT 
   COUNT(DISTINCT LEN) AS group_LEN_id,
