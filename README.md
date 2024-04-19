@@ -70,3 +70,9 @@ From all this, it seems like members use bikes mostly for commuting during the w
 ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/1b99dc64-0f5a-473c-87a6-16d5fc3c14d0)<br />
 
 Here's the scoop: casual riders are like marathon runners compared to members when it comes to trip length, clocking in longer journeys on average. Members stick to a steady pace, with trip lengths staying the same throughout the day. But casual riders? They're all over the map! They go the extra mile during between 8 am and 2 pm. And hey, they're not early birds either – their trips are shorter between 5 am and 8 am. <br />
+
+Now that we've cracked the code on how casual and member riders roll, it's time to whip up some marketing magic to woo those casual cruisers into the membership club! Here are some playful pointers: <br />
+
+1. Weekends are where the action's at! So, why not roll out some special deals like seasonal or weekend-only memberships? It's like a VIP pass to weekend biking bliss! <br />
+2. Let's hit the hotspots! Think vibrant tourist spots or trendy hangouts where casual riders love to chill. That's where we unleash our irresistible marketing campaigns to reel them in.<br />
+3. Did you know casual riders are the marathoners of the bike world? They love those long rides! How about tempting them (and even our members) with discounts for longer adventures? It's a win-win for everyone chasing those biking highs! <br />
