@@ -1,4 +1,4 @@
-# 📚 Cyclistic bike-share analysis case study 
+![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/ac621b15-c3ae-4ce0-a790-5797d042d924)# 📚 Cyclistic bike-share analysis case study 
 
 ## 👋🏻 Introduction 
 
@@ -46,6 +46,12 @@ Processing step is follow as : <br />
    ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/90ac5137-37c2-4446-80e2-9b0f455d7a35)<br />
 
 ### 4. Data Analyzing and Sharing 🌅 <br />
-1.For Data analysis is processed by SQL for Query : [Data Analyzing](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/04.Daya%20Analyzing.sql) <br />
-2.For Sharing/Visualization is done by Tableau for [Dashbaord](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&:sid=&:display_count=n&:origin=viz_share_link) <br />
+1. For Data analysis is processed by SQL for Query : [Data Analyzing](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/blob/main/04.Daya%20Analyzing.sql) <br />
+2. For Sharing/Visualization is done by Tableau for [Dashbaord](https://public.tableau.com/views/CyclisticProject_17134433020110/Dashboard12?:language=th-TH&:sid=&:display_count=n&:origin=viz_share_link) <br />
+
+Absolutely! The data has been diligently organized and is now primed for analysis. I've delved into several relevant tables to gather insights, and I've jazzed up the findings with some snazzy visuals in Tableau.<br />
+
+Our focal question is: How do annual members and casual riders use Cyclistic bikes differently?<br />
+To start off on the right foot, we're taking a polite peek into their bike preferences. Let's uncover who's pedaling what, shall we?
+![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/a7063bc4-252d-415e-aec0-8d39b27ff351)
 
