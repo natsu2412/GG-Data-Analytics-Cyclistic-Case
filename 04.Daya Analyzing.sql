@@ -34,17 +34,16 @@ GROUP BY member_casual, day_of_week, hours_per_day
 ORDER BY total_trip_rideable DESC;
 
 -- average ride_length per month
-
 SELECT month, member_casual, AVG(ride_length_in_mins) AS avg_ride_duration
 FROM `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
 GROUP BY month, member_casual;
 
 -- average ride_length per day of week
-
 SELECT day_of_week, member_casual, AVG(ride_length_in_mins) AS avg_ride_duration
 FROM `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
 GROUP BY day_of_week, member_casual;
 
+-- average ride_length per day of hours
 SELECT EXTRACT(HOUR FROM started_at) AS hour_of_day, member_casual, AVG(ride_length_in_mins) AS avg_ride_duration
 FROM `glossy-agency-419911.cyclistic.trips_2023_Q1_cleaned_1`
 GROUP BY hour_of_day, member_casual;
