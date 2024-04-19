@@ -46,7 +46,6 @@ ORDER BY
   LEN ASC;
 
 -- checking rideable_type - 3
-
 select distinct rideable_type, count(ride_id) as no_vehicle
 from `glossy-agency-419911.cyclistic.trips_2023_Q1` 
 group by rideable_type;
