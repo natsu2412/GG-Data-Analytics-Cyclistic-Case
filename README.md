@@ -42,7 +42,7 @@ Processing step is follow as : <br />
    ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/f4c0f808-bccd-4050-b5ad-701c686f660e)<br />
    <br />3.7 Check type of member <br />
    ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/ea8adca6-83cd-414d-8f4d-986594a1d455)<br />
-4. Data Cleansing - Final table for analyst with 3 columns adding : duration as ride_length_in_mins, month and day_of_week column<br />
+4. Data Cleansing - Final table for analyst with nut null and 3 columns adding: duration as ride_length_in_mins, month and day_of_week column that for process in next step<br />
    ![image](https://github.com/natsu2412/GG-Data-Analytics-Cyclistic-Case/assets/62971260/90ac5137-37c2-4446-80e2-9b0f455d7a35)<br />
 
 5. Data Analyzing.
