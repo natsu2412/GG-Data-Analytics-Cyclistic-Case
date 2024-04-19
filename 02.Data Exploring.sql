@@ -24,7 +24,7 @@ SELECT
 select count(*) AS number_of_row
 from glossy-agency-419911.cyclistic.trips_2023_Q1; 
 
--- checking duplicate of rows is 0
+-- checking duplicate of primary key(ride_id) is 0
 SELECT 
   COUNT(*) - COUNT(DISTINCT ride_id) AS duplicate_of_rows
 FROM 
@@ -88,5 +88,3 @@ where (
   extract(HOUR from (ended_at - started_at)) * 60 +
   extract(MINUTE from (ended_at - started_at)) +
   extract(SECOND from (ended_at - started_at)) / 60) <= 1;  --21452
-
-
